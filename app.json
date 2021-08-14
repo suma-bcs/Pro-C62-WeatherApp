@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "weatherapp",
+    "slug": "snack-8833c75a-108b-40af-9476-4af235863426",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier" : "com.suma_chandrasekhar_weatherapp"
+    },
+    "android": {
+      "package" : "com.suma_chandrasekhar_weatherapp",
+      "versionCode" : 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
