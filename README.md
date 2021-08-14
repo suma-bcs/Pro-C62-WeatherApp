@@ -1,11 +1,68 @@
-# Sample Snack app
+node --version
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+npm --version
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+cd desktop/weatherapp
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+npm install expo-cli --global
+
+
+
+**Go to Visual Studio Code, make the following changes in app.json
+
+"ios": {
+
+   "supportsTablet": true,
+
+   "bundleIdentifier" : "com.suma_chandrasekhar.weatherapp"
+
+  },
+
+  "android": {
+
+   "package" : "com.suma_chandrasekhar.weatherapp",
+
+   "versionCode" : 1
+
+  },
+
+
+
+--------
+
+npm install react-native-gesture-handler
+
+npm install --force
+
+expo start
+
+
+
+
+
+Ctrl + C (Command + C for Mac) to stop the metro bundler you ran using expo start.
+
+
+
+In the same folder, run the following commands: 
+
+● For building apk, run the command -  expo build:android 
+
+● For building ipa, run the command -  expo build:ios
+
+
+
+Enter your username and password of your snack account and proceed to generate key store.
+
+
+
+It will take some time to generate because it will be in queued. You can check the status of that bundle in your snack account! 
+
+Hence apk will be genarated to publish on playstore.
+
+
+
+Hope this helps! :)
+
